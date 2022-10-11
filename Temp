@@ -1,0 +1,211 @@
+if __name__ == "__main__":
+    processes = []
+    num_processes = os.cpu_count()
+
+    for i in range(num_processes):
+        process = Process(target=award, args=("CHS", flight_date))
+        processes.append(process)
+
+    for process in processes:
+        process.start()
+
+    for process in processes:
+        process.join()
+
+
+
+    destinations = IATA_list
+    pool = Pool(os.cpu_count() - 1)
+    func = partial(award, flight_date)
+    pool.map(func, destinations)
+
+    pool.close()
+    pool.join()
+
+
+    if int(flight_date[5:7]) >= 10:
+        calc_month = flight_date[5:7]  # month used for day+range calculation
+    else:
+        calc_month = flight_date[6:7]
+
+ ---------------------------------------------------------
+
+
+    for i in range(int(return_range)):
+
+        if day == monthrange(year, month)[1]:
+            if month == 12:
+                month = 1
+                year += 1
+            else:
+                month += 1
+            day = 0
+        day += 1
+        flight_date = str(year) + "-" + str(month) + "-" + str(day)
+
+        print(flight_date)
+
+ ------------------------------------------------
+         if r == 'r1':
+            award_list.append(destination)
+        if r == 'r2':
+            range_list.append(destination)
+
+--------------------------------------------------------
+
+        if day == monthrange(year, month)[1]:
+            if month == 12:
+                month = 1
+                year += 1
+            else:
+                month += 1
+            day = 0
+        day += 1
+        flight_date = str(year) + "-" + str(month) + "-" + str(day)
+
+ ----------------------------------------------------------
+
+ def increment_date(d, m, y):
+    d = temp_day
+    m = temp_month
+    y = temp_year
+    if d == monthrange(y, m)[1]:
+        if m == 12:
+            m = 1
+            y += 1
+        else:
+            m += 1
+        d = 0
+    d += 1
+    return str(y) + "-" + str(m) + "-" + str(d)
+
+-------------------------------------------------------------
+
+    for i in range(int(return_range)):
+        if day == monthrange(year, month)[1]:
+            if month == 12:
+                month = 1
+                year += 1
+            else:
+                month += 1
+            day = 0
+        day += 1
+        flight_date = str(year) + "-" + str(month) + "-" + str(day)
+
+        multi_processing(award, flight_date, range_list, list_dict, award_list)
+--------------------------------------------------------------------------
+
+ Award flights available from BOS to CVG on 2022-08-20
+Award flights available from BOS to CHS on 2022-08-20
+Award flights available from BOS to OGG on 2022-08-20
+Award flights available from BOS to HNL on 2022-08-20
+Award flights available from BOS to IAD on 2022-08-20
+Award flights available from BOS to RNO on 2022-08-20
+Award flights available from BOS to JFK on 2022-08-20
+Award flights available from BOS to EWR on 2022-08-20
+Award flights available from BOS to LAS on 2022-08-20
+Award flights available from BOS to OAK on 2022-08-20
+Award flights available from BOS to MCI on 2022-08-20
+Award flights available from BOS to SFO on 2022-08-20
+Award flights available from BOS to BGR on 2022-08-20
+Award flights available from BOS to SJC on 2022-08-20
+Award flights available from BOS to CMX on 2022-08-20
+Award flights available from BOS to ALB on 2022-08-20
+Award flights available from BOS to SLC on 2022-08-20
+Award flights available from BOS to BTV on 2022-08-20
+Award flights available from BOS to JAC on 2022-08-20
+Award flights available from BOS to GSP on 2022-08-20
+Award flights available from BOS to HYS on 2022-08-20
+Award flights available from BOS to PAH on 2022-08-20
+Award flights available from BOS to RAP on 2022-08-20
+Award flights available from BOS to ITO on 2022-08-20
+Award flights available from BOS to KOA on 2022-08-20
+Award flights available from BOS to MHT on 2022-08-20
+Award flights available from BOS to PSP on 2022-08-20
+Award flights available from BOS to SBP on 2022-08-20
+Award flights available from BOS to SAV on 2022-08-20
+Award flights available from BOS to STT on 2022-08-20
+Award flights available from BOS to SBA on 2022-08-20
+Award flights available from BOS to TVC on 2022-08-20
+Award flights available from BOS to SUN on 2022-08-20
+Award flights available from BOS to SPN on 2022-08-20
+done, finding return flights
+Award flights available from IAD to BOS on 2022-8-21
+Award flights available from EWR to BOS on 2022-8-21
+Award flights available from MCI to BOS on 2022-8-21
+Award flights available from JFK to BOS on 2022-8-21
+Award flights available from JFK to BOS on 2022-8-22
+Award flights available from IAD to BOS on 2022-8-22
+Award flights available from RNO to BOS on 2022-8-22
+Award flights available from EWR to BOS on 2022-8-22
+Award flights available from MCI to BOS on 2022-8-22
+Award flights available from CVG to BOS on 2022-8-22
+Award flights available from CHS to BOS on 2022-8-22
+Award flights available from BTV to BOS on 2022-8-22
+Award flights available from MHT to BOS on 2022-8-22
+Award flights available from SBA to BOS on 2022-8-22
+Award flights available from IAD to BOS on 2022-8-23
+Award flights available from MCI to BOS on 2022-8-23
+Award flights available from JFK to BOS on 2022-8-23
+Award flights available from EWR to BOS on 2022-8-23
+Award flights available from CHS to BOS on 2022-8-23
+Award flights available from BGR to BOS on 2022-8-23
+Award flights available from CVG to BOS on 2022-8-23
+Award flights available from BTV to BOS on 2022-8-23
+Award flights available from PAH to BOS on 2022-8-23
+Award flights available from MHT to BOS on 2022-8-23
+Award flights available from GSP to BOS on 2022-8-23
+Award flights available from SAV to BOS on 2022-8-23
+Award flights available from CVG to BOS on 2022-8-24
+Award flights available from EWR to BOS on 2022-8-24
+Award flights available from IAD to BOS on 2022-8-24
+Award flights available from JFK to BOS on 2022-8-24
+Award flights available from CHS to BOS on 2022-8-24
+Award flights available from MCI to BOS on 2022-8-24
+Award flights available from ALB to BOS on 2022-8-24
+Award flights available from MHT to BOS on 2022-8-24
+Award flights available from BTV to BOS on 2022-8-24
+Award flights available from GSP to BOS on 2022-8-24
+Award flights available from SAV to BOS on 2022-8-24
+Award flights available from BGR to BOS on 2022-8-25
+Award flights available from CHS to BOS on 2022-8-25
+Award flights available from EWR to BOS on 2022-8-25
+Award flights available from JFK to BOS on 2022-8-25
+Award flights available from CVG to BOS on 2022-8-25
+Award flights available from MCI to BOS on 2022-8-25
+Award flights available from ALB to BOS on 2022-8-25
+Award flights available from BTV to BOS on 2022-8-25
+Award flights available from SAV to BOS on 2022-8-25
+Award flights available from MHT to BOS on 2022-8-25
+Award flights available from TVC to BOS on 2022-8-25
+Award flights available from EWR to BOS on 2022-8-26
+Award flights available from BGR to BOS on 2022-8-26
+Award flights available from JFK to BOS on 2022-8-26
+Award flights available from CHS to BOS on 2022-8-26
+Award flights available from CVG to BOS on 2022-8-26
+Award flights available from BTV to BOS on 2022-8-26
+Award flights available from MHT to BOS on 2022-8-26
+Award flights available from EWR to BOS on 2022-8-28
+Award flights available from JFK to BOS on 2022-8-28
+Award flights available from EWR to BOS on 2022-8-29
+Award flights available from CHS to BOS on 2022-8-29
+Award flights available from JFK to BOS on 2022-8-29
+Award flights available from IAD to BOS on 2022-8-29
+Award flights available from CVG to BOS on 2022-8-29
+Award flights available from BTV to BOS on 2022-8-29
+Award flights available from MHT to BOS on 2022-8-29
+Award flights available from GSP to BOS on 2022-8-29
+Award flights available from IAD to BOS on 2022-8-30
+Award flights available from CVG to BOS on 2022-8-30
+Award flights available from EWR to BOS on 2022-8-30
+Award flights available from BGR to BOS on 2022-8-30
+Award flights available from JFK to BOS on 2022-8-30
+Award flights available from MCI to BOS on 2022-8-30
+Award flights available from CHS to BOS on 2022-8-30
+Award flights available from ALB to BOS on 2022-8-30
+Award flights available from BTV to BOS on 2022-8-30
+Award flights available from GSP to BOS on 2022-8-30
+Award flights available from SAV to BOS on 2022-8-30
+Award flights available from MHT to BOS on 2022-8-30
+1016.893426656723
+

@@ -1,0 +1,104 @@
+This data is from 2022-10-01
+
+Round trip availability
+
+from BOS to ABE
+from BOS to ALB
+from BOS to AVP
+from BOS to BNA
+from BOS to BUF
+from BOS to CHS
+from BOS to CLE
+from BOS to CLT
+from BOS to DTW
+from BOS to EWR
+from BOS to JFK
+from BOS to MDT
+from BOS to ORF
+from BOS to PIT
+from BOS to RIC
+from BOS to ROC
+Outbound flights
+
+BOS to ABE on 2022-12-21
+BOS to ALB on 2022-12-21
+BOS to AVP on 2022-12-21
+BOS to BNA on 2022-12-21
+BOS to BTV on 2022-12-21
+BOS to BUF on 2022-12-21
+BOS to CHS on 2022-12-21
+BOS to CLE on 2022-12-21
+BOS to CLT on 2022-12-21
+BOS to CVG on 2022-12-21
+BOS to DCA on 2022-12-21
+BOS to DTW on 2022-12-21
+BOS to EWR on 2022-12-21
+BOS to IAD on 2022-12-21
+BOS to JFK on 2022-12-21
+BOS to LGA on 2022-12-21
+BOS to MDT on 2022-12-21
+BOS to MHT on 2022-12-21
+BOS to ORF on 2022-12-21
+BOS to PHL on 2022-12-21
+BOS to PIT on 2022-12-21
+BOS to RDU on 2022-12-21
+BOS to RIC on 2022-12-21
+BOS to ROC on 2022-12-21
+
+Return flights
+
+SPN to BOS on 2022-12-23
+CHS to BOS on 2022-12-24
+IND to BOS on 2022-12-24
+ORD to BOS on 2022-12-24
+MKE to BOS on 2022-12-24
+CLE to BOS on 2022-12-24
+JAX to BOS on 2022-12-24
+BNA to BOS on 2022-12-24
+RIC to BOS on 2022-12-24
+ORF to BOS on 2022-12-24
+DTW to BOS on 2022-12-24
+SDF to BOS on 2022-12-24
+CLT to BOS on 2022-12-24
+ATL to BOS on 2022-12-24
+JFK to BOS on 2022-12-24
+MSY to BOS on 2022-12-24
+PIT to BOS on 2022-12-24
+OMA to BOS on 2022-12-24
+BUF to BOS on 2022-12-24
+MDW to BOS on 2022-12-24
+EWR to BOS on 2022-12-24
+LAS to BOS on 2022-12-24
+PVD to BOS on 2022-12-24
+MEM to BOS on 2022-12-24
+BQN to BOS on 2022-12-24
+ATW to BOS on 2022-12-24
+MCI to BOS on 2022-12-24
+CID to BOS on 2022-12-24
+ABE to BOS on 2022-12-24
+AVP to BOS on 2022-12-24
+ALB to BOS on 2022-12-24
+ERI to BOS on 2022-12-24
+DSM to BOS on 2022-12-24
+STL to BOS on 2022-12-24
+DAY to BOS on 2022-12-24
+CMX to BOS on 2022-12-24
+GRR to BOS on 2022-12-24
+CAK to BOS on 2022-12-24
+GUM to BOS on 2022-12-24
+FSD to BOS on 2022-12-24
+GSP to BOS on 2022-12-24
+HDN to BOS on 2022-12-24
+MEI to BOS on 2022-12-24
+MLI to BOS on 2022-12-24
+HSV to BOS on 2022-12-24
+MSN to BOS on 2022-12-24
+PWM to BOS on 2022-12-24
+SAV to BOS on 2022-12-24
+PNS to BOS on 2022-12-24
+MDT to BOS on 2022-12-24
+ICT to BOS on 2022-12-24
+SCE to BOS on 2022-12-24
+ROA to BOS on 2022-12-24
+SBN to BOS on 2022-12-24
+ROC to BOS on 2022-12-24
